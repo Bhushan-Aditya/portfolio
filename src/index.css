@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional global styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Fallback for your fonts */
+    margin: 0; /* Reset margins */
+    padding: 0; /* Reset padding */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Global styles */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* Utility classes for focus states on inputs */
+:focus {
+    outline: none; /* Remove default outline */
+}
+
+/* Additional styles for improved accessibility */
+input:focus, textarea:focus, button:focus {
+    ring: 2px solid rgba(77, 70, 149, 1); /* Example focus ring */
+}
+
+/* Make sure links are styled */
+a {
+    text-decoration: none;
+    color: inherit; /* Color inherits from parent */
+}
+
+a:hover {
+    color: rgba(38, 38, 38, 1); /* Change color on hover */
+}
+
+/* Tailwind Custom Styles (if needed) */
+
+
+
